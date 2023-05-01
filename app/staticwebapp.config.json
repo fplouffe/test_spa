@@ -1,0 +1,20 @@
+{
+    "networking": {
+        "allowedIpRanges": ["AzureFrontDoor.Backend"]
+      },
+
+      "forwardingGateway": {
+        "requiredHeaders": {
+          "X-Azure-FDID" : "f7709989-5a40-4176-9c9a-c2611dd94cd6"
+        },
+        "allowedForwardedHosts": [
+          "om-node-demotest-aydnbmbtfbfdczfe.z01.azurefd.net"
+        ]
+      },
+
+      "route": "/members",
+      "allowedRoles": ["authenticated, members"],
+      "headers": {
+          "Cache-Control": "no-store"
+      }  
+}
