@@ -10,7 +10,9 @@ const msalConfig = {
         // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
         authority: "https://login.microsoftonline.com/aa81b43f-3969-4fd4-80c9-84c411508d82",
         // Full redirect URL, in form of http://localhost:3000
-        redirectUri: "https://salmon-stone-0c9eedd10.3.azurestaticapps.net/",//"http://localhost:3000",
+        redirectUri: "https://om-node-demotest-aydnbmbtfbfdczfe.z01.azurefd.net/web", 
+                    //"https://salmon-stone-0c9eedd10.3.azurestaticapps.net/",
+                    //"http://localhost:3000",
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
